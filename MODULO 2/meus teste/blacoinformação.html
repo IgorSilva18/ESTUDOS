@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        img{
+            height: 20px;
+        }
+        body{
+            background-image:url(layered-steps-haikei.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            
+        }
+        div#blocop{
+            background-color: bisque;
+            display: block;
+            margin-right: 80%;
+            border-radius: 10px;
+        }
+        div{
+            margin: 5px;
+
+        }
+        div#info{
+            display: none;
+        }
+        div#info{
+            background-color: white;
+            border-radius: 5px;
+        }
+        p{
+            margin: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div id="blocop">
+        <div>
+            <h2>principais noticias do dia para mas informacoes
+                clike em saiba mas 
+                <a href="#" onclick="mostrar()"><img src="check-mark.png" alt=""></a>
+            </h2>
+        </div>
+        <div id="info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit voluptate sed asperiores numquam voluptatem atque fuga magnam officia id. Debitis sunt voluptas ad, odio tempore cumque similique officia consequatur?</p>
+
+        </div>
+    </div>
+    <script>
+        function mostrar(){
+            let info = document.getElementById("info")
+            if(info.style.display == "none"){
+                info.style.display = "block"
+            }else{
+                info.style.display = "none"
+            }
+         
+        }
+    </script>
+</body>
+</html>

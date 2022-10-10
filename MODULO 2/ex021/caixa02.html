@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+           margin-right: 10px;
+        }
+       nav{
+        background-color: rgb(50, 160, 65);
+        padding: 3px;
+        box-shadow: 1px 1px 1px black;
+       }
+       nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        margin-right: 30px;
+        
+       }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article > aside {
+            background-color: aliceblue;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section><p>
+            esporte politica e noticia
+        </p></section>
+        <section>
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse consequuntur, dolorum autem adipisci quam eum, eos dolore tenetur, quasi sit corrupti modi id error mollitia? Consequatur quas nesciunt pariatur.</p>
+                <aside><p>artigo escrito por kratos</p></aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por katon18@</p>
+    </footer>
+</body>
+</html>

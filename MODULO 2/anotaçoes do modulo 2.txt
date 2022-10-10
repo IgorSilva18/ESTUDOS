@@ -1,0 +1,29 @@
+cores influencia na experiencia do usuario com o site
+escolher bem a paleta de cores 
+cores quentes causam sensação de proximidade
+cores frias causam sensação de calma , tranquilidade , harmonia 
+cores primarias amarelo , vermelho , azul
+cores secundaria verde , laranja , violeta 
+cores tercearias amarelo esverdeado , amarelo alaranjado , vermelho alaranjado, vermelho arroxeado
+azul arroxeado,azul esverdeado
+usar fontes seguras as safe combinachan
+tamanho do fonte :
+medidas absolutas : cm, mm, in, px, pt, pc
+medidas relativas: em , ex , rem , vw , 
+recomendados para medicas de fonte : px  e em!
+16px é igual a 1em
+weight para peso da fonte =  font-weight
+shorthand font ordem
+font style font weight font size font family
+type fontes opentype = otf
+truetype = ttf
+embedded-opntype
+seletores personalizados
+id no css = #
+classe no css = .
+pseudo classe = :
+pseudo elemento = ::
+children, filho = > 
+os parametros do shortrends de caixa seguem a ordem de um relogio
+preimro o top depois a direita depois baixo e por ultimo esquerda
+top , left,boton,right

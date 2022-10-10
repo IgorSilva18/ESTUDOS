@@ -1,0 +1,9 @@
+hr = linha horizontal uma linha preta na tela caso necessario.
+
+para adicionar emoji coloca antes do codigo do emoji (&#x) e no final (;)
+<ol> são lista ordenadas
+<ul> são lista desordenadas
+<dl> são lista de definição
+<abbr> para adicionar uma descrição a uma palavra ou frase 
+para adicionar tambs em um video usar a preset = poster
+johands gutenberg inventou a pressa mecaninca e foi considerado o pai da impressa

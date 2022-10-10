@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+        <p>digite o valor em celsius ou farenheit</p>
+        <input type="number" id="Dtext">
+        <p>escolha a opção de converção a baixo</p>
+        <input type="button" value="farenheit" onclick="conF()"><input type="button" value="celsius" onclick="conC()">
+    </div>
+    <div id="res"></div>
+    <img src="logo-css.png" alt="">
+    <script>
+        function conF(){
+            var dados = document.getElementById('Dtext')
+            var rex = document.getElementById('res')
+            var r = 0
+            r = (((dados.value / 5) * 9) + 32)
+            r.value
+            rex.innerHTML = `${dados.value} celsius é igual a ${r} farenheit`
+        }
+        function conC(){
+            var dados = document.getElementById('Dtext')
+            dados = Number(dados.value)
+            var rex = document.getElementById('res')
+            var r = 0 
+            r = ((dados - 32) / 1.8)
+            rex.innerHTML = `${dados} Fahrenheit em celcius é ${r} `
+        }
+    </script>
+</body>
+</html>
